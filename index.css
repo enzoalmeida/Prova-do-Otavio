@@ -1,0 +1,124 @@
+* {
+    margin:5px;
+    border-top: none;
+    border-left: none;
+    border-style: none;
+    box-sizing: border-box;
+    outline: none;
+    scroll-behavior: smooth;
+  }
+
+
+  hr{
+    left: 0;
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    background-color: rgb(51, 50, 50);
+}
+
+table {
+    background-color: #252525;
+    color: white;
+    display: flex;
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+    border: auto;
+    
+}
+.csju{align-items: center;
+    border: auto;
+}
+.xp {
+
+    background-color: #010408;
+    color: #272a2b;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    border: auto;
+}
+
+.xp td:hover {
+    border: center;
+    background-color: #1e106d;
+    color: #747474;
+}
+
+td {
+    border-right: 2px solid #ffeaf6;
+    border-collapse: collapse;
+    display: inline;
+    padding: 10.5px;
+    font-size: 30px;
+    padding-top: 22px;
+    padding-bottom: 22px;
+}
+td:last-child {
+    border-right: none;
+}
+
+body { 
+    background-color: rgb(255, 255, 255);
+}
+
+.hr {
+    color-scheme: solid;
+    mask-type: alpha;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ 
+.fistc {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: justify;
+    padding-left: 200px;
+    line-height: 32px;
+    color: #000000;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}  
+
+.secondc {
+    flex: 1;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 10px;
+    padding: 20px;
+    padding-right: 200px;
+    padding-top: 50px;
+    color: #000000;
+    align-items: right;
+}
+
+.item {
+    display: flex;
+    padding: 0px;
+    text-align: center;
+    font-size: 30px;
+}
+.item img {
+    height: 100px;
+    width: 160px;
+    border: 6px solid #ffffff;
+    
+}
+.item figcaption {
+    font-size: 16px;
+    margin-top: 5px;
+}
+.hh3 {
+    text-align: center;
+}
+
+.footer{
+    background-color: #000000;
+    padding: 40px;
+}
